@@ -1,0 +1,4 @@
+(library
+ (name frontend)
+ (modes melange)
+ (libraries melange-webapi))

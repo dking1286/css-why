@@ -5,7 +5,7 @@
  
  (modules :standard)
 
- (libraries melange-webapi)
+ (libraries frontend)
  
  (preprocess
   (pps melange.ppx))
