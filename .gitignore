@@ -27,3 +27,9 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# Dune build
+_build
+
+# Node modules
+node_modules

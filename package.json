@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch": "dune build @frontend -w",
+    "serve": "webpack serve --open --mode development --entry ./_build/default/bin/frontend/output/bin/frontend/Main.js"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

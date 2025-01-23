@@ -1,0 +1,13 @@
+(melange.emit
+ (target output)
+ 
+ (alias frontend)
+ 
+ (modules :standard)
+
+ (libraries melange-webapi)
+ 
+ (preprocess
+  (pps melange.ppx))
+ 
+ (module_systems es6))
