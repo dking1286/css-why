@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:dking1286/css-why-api.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:dking1286/css-why-frontend.git
