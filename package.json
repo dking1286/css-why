@@ -2,8 +2,8 @@
   "scripts": {
     "build": "dune build @frontend",
     "watch": "dune build @frontend -w",
-    "bundle": "webpack --mode production --entry ./_build/default/bin/frontend/output/bin/frontend/Main.js",
-    "serve": "webpack serve --open --mode development --entry ./_build/default/bin/frontend/output/bin/frontend/Main.js"
+    "bundle": "webpack --mode production --output-path ./frontend/dist --entry ./_build/default/frontend/bin/output/frontend/bin/Main.js",
+    "serve": "webpack serve --open --mode development --static frontend/public --entry ./_build/default/frontend/bin/output/frontend/bin/Main.js"
   },
   "devDependencies": {
     "webpack": "^5.97.1",
