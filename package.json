@@ -1,6 +1,8 @@
 {
   "scripts": {
+    "build": "dune build @frontend",
     "watch": "dune build @frontend -w",
+    "bundle": "webpack --mode production --entry ./_build/default/bin/frontend/output/bin/frontend/Main.js",
     "serve": "webpack serve --open --mode development --entry ./_build/default/bin/frontend/output/bin/frontend/Main.js"
   },
   "devDependencies": {

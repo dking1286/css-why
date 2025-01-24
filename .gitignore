@@ -33,3 +33,6 @@ _build
 
 # Node modules
 node_modules
+
+# Webpack output
+dist
